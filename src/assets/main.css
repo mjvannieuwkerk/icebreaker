@@ -9,9 +9,9 @@
 }
 
 a,
-.green {
+.blue {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #2caeff;
   transition: 0.4s;
 }
 
