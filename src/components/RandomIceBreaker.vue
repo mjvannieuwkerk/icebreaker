@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 const iceBreaker = ref('Start');
-// List of 100 questions: https://museumhack.com/list-icebreakers-questions/
+// List of 200 questions: https://museumhack.com/list-icebreakers-questions/
 const iceBreakers = ref([
   'If you could invite a celebrity over for dinner, who would it be and why?',
   'If you could have any superhero power, what would it be?',
@@ -72,5 +72,6 @@ const getRandom = async () => {
   font-size: 6rem;
   min-height: 6rem;
   text-align: center;
+  transform: translateY(-50px)
 }
 </style>
